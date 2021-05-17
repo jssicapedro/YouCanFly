@@ -181,10 +181,10 @@ h3{
     text-align: center;
 }
 
-.inicial{
+/*.inicial{
     width: 900px;
     height: 27%;
-}
+}*/
 
 .table-cont tr td{
     width: 50%;
@@ -192,6 +192,10 @@ h3{
 
 .imagem1{
     width: 28%;
+}
+
+.imagem2{
+    width: 33%;
 }
 
 .imagemgrande {
