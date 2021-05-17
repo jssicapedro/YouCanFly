@@ -1,0 +1,118 @@
+body {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+div#inicio{
+    position: absolute;
+    display: block;
+    top: 3px;
+    width: 86%;
+}
+
+table{
+    width: 100%;
+}
+
+td#menu{
+    text-align: right;
+    padding-bottom: 4%;
+}
+
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 38px;
+}
+
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#inicio p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+        
+div#inicio table tr td img{
+    margin-left: 63%;
+    margin-top: 5%;
+}
+
+li{
+    display: inline;
+    padding: 2%;
+    font-size: 20px;
+}
+
+div#rectanglegray{
+    position: relative;
+    top: 236px;
+    width: 100%;
+    height: 564px;
+    background-color: #D4D4D4;
+}
+
+img#imageminicial{
+    width: 85%;
+    position: absolute;
+    top: 24.6%;
+    left: 100px;
+}
+
+div#rectangleblue{
+    width: 200px;
+    height: 416px;
+    background-color: #8eb8dfd0;
+    margin-left: 25%;
+    margin-top: -574px;
+    position: absolute;
+}
+
+div#ecradois{
+    padding-top: 21%;
+}
+
+.imgcompanhias{
+    margin-left: 38.3em;
+    position: absolute;
+    margin-top: -44px;  
+}
+
+section{
+    margin: 50px auto;
+}
+
+#tabelacompanhias{
+    padding-top: 20px;
+    width: 80%;
+}
+
+#tabelacompanhias td{
+    padding-bottom: 19px;
+}
+
+.companhias{
+    width: 81%;
+    border-radius: 75%;
+    position: relative;
+    box-shadow: #F5BBBB 10px 8px 15px 0px;
+}
+
+.companhias:hover{
+    cursor: pointer;
+    transform: translateY(-30px);
+    box-shadow: #d6a2a2 6px 40px 20px 1px;
+}
+
+.companhias:active{
+    transform: translateY(30px);
+    box-shadow: none;
+}
+
+div#ecratres table tr td h1,p{
+    text-align: right;
+}
