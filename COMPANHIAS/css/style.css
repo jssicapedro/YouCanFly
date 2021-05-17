@@ -190,8 +190,12 @@ h3{
     width: 50%;
 }
 
-.table-cont tr td img{
+.imagem1{
     width: 28%;
+}
+
+.imagemgrande {
+    width: 54%;
 }
 
 .mapa{
