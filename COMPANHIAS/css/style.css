@@ -158,12 +158,12 @@ h3{
     width: 50%;
 }
 
-#introducao tr td picture{
-    padding-left: 43px;
+#introducao tr td p{
+    padding-left: 40px;
 }
 
 #introducao tr td img{
-    width: 80%;
+    width: 85%;
     border-radius: 5px;
 }
 
