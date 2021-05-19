@@ -48,7 +48,8 @@ table{
 .td-cont h1{
     font-size: 1em;
     color: #21a7e1;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 10px;
 }
 
@@ -158,8 +159,9 @@ h3{
     width: 50%;
 }
 
-#introducao tr td p{
+/*#introducao tr td*/ p{
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 #introducao tr td img{
