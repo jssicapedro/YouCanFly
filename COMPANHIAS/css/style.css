@@ -155,18 +155,22 @@ h3{
     width: 90%;
 }
 
-#introducao tr td{
+.col-md-6{
     width: 50%;
 }
 
-/*#introducao tr td*/ p{
-    padding-left: 40px;
-    padding-right: 40px;
+.col-md-6 picture {
+    padding-left: 5%;
 }
 
-#introducao tr td img{
+.col-md-6 img{
     width: 85%;
     border-radius: 5px;
+}
+
+p{
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #paises td{
@@ -231,39 +235,6 @@ table tbody{
 
 
 
-/*@media (max-width: 930px) {
-    main{
-    background-color: white;
-    width: 750px ;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 8px 8px 10px #3c738fd7;
-    }
-    .mapa{
-        width: 99.3%;
-    }
-}*/
-
-@media (max-width: 500px) {
-    main{
-        background-color: white;
-        width: 500px;
-        margin: auto;
-        border-radius: 10px;
-        box-shadow: 8px 8px 10px #3c738fd7;
-    }
-    .mapa{
-        width: 99.1%;
-    }
-    .tabelacont{
-        padding-right: 10px;
-        padding-left: 0px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-}
 
 
 
