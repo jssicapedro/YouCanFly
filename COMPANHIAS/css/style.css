@@ -231,7 +231,7 @@ table tbody{
 
 
 
-@media (max-width: 930px) {
+/*@media (max-width: 930px) {
     main{
     background-color: white;
     width: 750px ;
@@ -242,9 +242,9 @@ table tbody{
     .mapa{
         width: 99.3%;
     }
-}
+}*/
 
-@media (max-width: 750px) {
+@media (max-width: 500px) {
     main{
         background-color: white;
         width: 500px;
