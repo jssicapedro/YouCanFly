@@ -71,7 +71,7 @@ div#rectangleblue{
 }
 
 div#ecradois{
-    padding-top: 21%;
+    padding-top: 30%;
 }
 
 .imgcompanhias{
@@ -111,6 +111,17 @@ section{
     box-shadow: none;
 }
 
-div#ecratres table tr td h1,p{
+div#ecratres table tr td h1{
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 2.3em;
+    text-align: right;
+}
+
+div#ecratres table tr td p{
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
     text-align: right;
 }
