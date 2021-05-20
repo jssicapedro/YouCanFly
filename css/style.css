@@ -97,17 +97,17 @@ section{
     width: 81%;
     border-radius: 75%;
     position: relative;
-    box-shadow: #F5BBBB 10px 8px 15px 0px;
+    box-shadow: #f1b9bac7 1px 7px 21px 0px;
 }
 
 .companhias:hover{
     cursor: pointer;
     transform: translateY(-30px);
-    box-shadow: #d6a2a2 6px 40px 20px 1px;
+    box-shadow: #f1b8bac7 6px 40px 20px 1px;
 }
 
 .companhias:active{
-    transform: translateY(30px);
+    transform: translateY(15px);
     box-shadow: none;
 }
 

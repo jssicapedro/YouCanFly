@@ -27,6 +27,17 @@ body{
     width: 7%;
 }
 
+#introducao tr td{
+    width: 50%;
+}
+
+#introducao tr td picture img{
+    width: 88%;
+    padding: 0%;
+    border-radius: 5%;
+    margin-right: 7%;
+}
+
 main{
     background-color: white;
     width: 900px;
