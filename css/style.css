@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 body {
     padding-left: 7%;
     padding-right: 7%;
@@ -10,6 +12,7 @@ div#inicio{
     width: 86%;
 }
 
+
 table{
     width: 100%;
 }
@@ -20,20 +23,15 @@ td#menu{
 }
 
 h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 38px;
-}
-
-p{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3em;
 }
 
 #inicio p{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
     text-align: left;
 }
         
@@ -50,7 +48,7 @@ li{
 
 div#rectanglegray{
     position: relative;
-    top: 236px;
+    top: 323px;
     width: 100%;
     height: 564px;
     background-color: #D4D4D4;
@@ -59,7 +57,7 @@ div#rectanglegray{
 img#imageminicial{
     width: 85%;
     position: absolute;
-    top: 24.6%;
+    top: 34.6%;
     left: 100px;
 }
 
