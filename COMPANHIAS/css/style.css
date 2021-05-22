@@ -162,21 +162,28 @@ h3{
     list-style: none;
 }
 
-.items-secction{
-    width: 90%;
+.servicos{
+    list-style: none; 
+    text-align: center;
+    font-size: 1.3em;
 }
 
-.col-md-6{
-    width: 50%;
+.servicos li{
+    display: inline;
+    padding-left: 2%;
 }
 
-.col-md-6 picture {
-    padding-left: 5%;
+.servicos a{
+    text-decoration: none;
+    color: #c03729;
 }
 
-.col-md-6 img{
-    width: 85%;
-    border-radius: 5px;
+.servicos a:hover{
+    color: #c03829b9;
+}
+
+.servicos a:active{
+    color: #e74b3a;
 }
 
 p{
@@ -231,19 +238,21 @@ table tbody{
     text-align: center;
 }
 
-/*.tabelaWhite tr td img{
-    border-radius: 10px 20px ;
-    width: 90%;
-}*/
-
 .imagemfrota{
     width: 90%;
     display: block;
+    border-radius: 10px 20px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.glosario h2{
+    font-size: 1em;
+}
 
+.glosario p{
+    font-size: 0.8em;
+}
 
 
 
