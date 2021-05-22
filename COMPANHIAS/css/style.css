@@ -33,9 +33,12 @@ body{
 
 #introducao tr td picture img{
     width: 88%;
-    padding: 0%;
     border-radius: 5%;
     margin-right: 7%;
+}
+
+.imghistoria{
+    width: 100%;
 }
 
 main{
