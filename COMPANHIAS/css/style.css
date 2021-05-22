@@ -37,11 +37,32 @@ body{
     margin-right: 7%;
 }
 
+
+
+
+
 .imghistoria{
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-radius: 0px 0px 10px 10px;   
 }
+
+
+
+
+
+
+
+.imagem_destinos{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
 
 main{
     background-color: white;
@@ -265,10 +286,6 @@ table tbody{
 
 .glosario h2{
     font-size: 1em;
-}
-
-.glosario p{
-    font-size: 0.8em;
 }
 
 
