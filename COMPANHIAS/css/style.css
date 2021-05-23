@@ -149,6 +149,16 @@ h3{
     padding-left: 30px;
 }
 
+.td-cont h2{
+    color: #21a7e1;
+    text-align: center;
+}
+
+.td-cont h3{
+    color: #106488e1;
+    text-align: center;
+}
+
 #lista ul{
     list-style:none;
 }
