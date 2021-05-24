@@ -284,7 +284,15 @@ table tbody{
     font-size: 1em;
 }
 
+#centralizar{
+    background-color: #e22828b9;
+    border-radius: 5%;
 
+
+    position:absolute;
+    left:50%;
+    transform: translate(-50%);
+}
 
 
 
