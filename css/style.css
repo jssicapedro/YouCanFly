@@ -5,7 +5,7 @@ body {
     padding-right: 7%;
 }
 
-div#inicio{
+#inicio{
     position: absolute;
     display: block;
     top: 3px;
@@ -17,7 +17,7 @@ table{
     width: 100%;
 }
 
-td#menu{
+#menu{
     text-align: right;
     padding-bottom: 4%;
 }
@@ -35,7 +35,7 @@ h1 {
     text-align: left;
 }
         
-div#inicio table tr td img{
+#inicio table tr td img{
     margin-left: 63%;
     margin-top: 5%;
 }
@@ -46,7 +46,7 @@ li{
     font-size: 20px;
 }
 
-div#rectanglegray{
+#rectanglegray{
     position: relative;
     top: 323px;
     width: 100%;
@@ -54,14 +54,14 @@ div#rectanglegray{
     background-color: #D4D4D4;
 }
 
-img#imageminicial{
+#imageminicial{
     width: 85%;
     position: absolute;
     top: 34.6%;
     left: 100px;
 }
 
-div#rectangleblue{
+#rectangleblue{
     width: 200px;
     height: 416px;
     background-color: #8eb8dfd0;
@@ -70,7 +70,7 @@ div#rectangleblue{
     position: absolute;
 }
 
-div#ecradois{
+#ecradois{
     padding-top: 30%;
 }
 
@@ -111,17 +111,37 @@ section{
     box-shadow: none;
 }
 
-div#ecratres table tr td h1{
+#ecratres table tr td h1{
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-size: 2.3em;
     text-align: right;
 }
 
-div#ecratres table tr td p{
+#ecratres table tr td p{
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
     text-align: right;
+}
+
+#loja{
+    background-color: #D4D4D4;
+}
+
+#loja table tr td p{
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+}
+
+#loja table tr td picture{
+    background-color: #8EB8DF;
+}
+
+#loja table tr td img{
+    width: 80%;
 }
