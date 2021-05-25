@@ -16,7 +16,6 @@
         </picture>
     </a>
     <br>
-    <h1>Sky Shop </h1>
     <h2>Vitrine</h2>
     <div id="produtos">
 
@@ -52,7 +51,7 @@
             {
                 id: 2,
                 nome: 'bone',
-                img: 'img/loja/bone branco.png',
+                img: 'img/loja/bone_branco.png',
                 quantidade: 0
             },
         ]
@@ -78,13 +77,15 @@
             var containerCarrinho = document.getElementById('carrinho');
             containerCarrinho.innerHTML = "";
             items.map((val) => {
-                if (val.quantidade > 0)
+                if (val.quantidade > 0) {
                     containerCarrinho.innerHTML += `
-                
-                <p>`+ val.nome + ` | quantidade: ` + val.quantidade + `</p>
-                <hr>
-                
+                <div class="info-single-checkout">
+                    <p style="float:left">Produto: `+ val.nome + ` </p>
+                    <p style="float:right">Qantidade: `+ val.quantidade + `</p>
+                    <div style="clear:both"></div>
+                </div>
                 `;
+                }
             })
         }
 
