@@ -5,19 +5,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sevenair</title>
-    <link rel="stylesheet" href="companhias/css/style.css">
+    <title>Sky shop</title>
     <link rel="stylesheet" href="css/loja.css">
 </head>
 
 <body>
     <a id="setainicio" href="index.html">
         <picture>
-            <img src="../img/logo/Untitled-1.png" width="5%" alt="logotipo voltar página inicial">
+            <img src="img/logo/Untitled-1.png" width="5%" alt="logotipo voltar página inicial">
         </picture>
     </a>
-    </main>
     <br>
+    <h1>Sky Shop </h1>
+
+    <div id="produtos">
+        <h2>Vitrine</h2>
+
+
+    </div>
+
+
+    <div id="carrinho">
+        <h2>Carrinho</h2>
+
+
+    </div>
+
+
+
+
+    <script>
+        const items = [
+            {
+                id: 0,
+                nome: 'camiseta',
+                img: 'img/loja/sweatbranca_item.png',
+                quantidade: 0
+            },
+            {
+                id: 1,
+                nome: 't-shirt',
+                img: 'img/loja/t-shirt.png',
+                quantidade: 0
+            },
+            {
+                id: 2,
+                nome: 'bone',
+                img: 'img/loja/bone branco.png',
+                quantidade: 0
+            },
+        ]
+
+        inicializarLoja = () => {
+            var containerProdutos = document.getElementById('produtos');
+            items.map((val) => {
+                containerProdutos.innerHTML += `
+                <div class="produto-single">
+                    <img src="`+ val.img + `" />
+                    <p>`+ val.nome + `</p>
+                    <a key="`+ val.id + `" href="#">Adicionar ao carrinho</a>
+                </div>
+                
+                `;
+            })
+        }
+
+        inicializarLoja();
+
+
+        atualizarcarrinho = () => {
+            console.log(items);
+        }
+
+        var links = document.getElementsByTagName('a');
+
+        for (var i = 0; i < links.length; i++) {
+            links[i].addEventListener("click", function () {
+                let key = this.getAttribute('key');
+                items[key].quantidade++;
+                atualizarcarrinho();
+                return false;
+            })
+
+        }
+
+
+
+    </script>
 </body>
 
 </html>
