@@ -12,7 +12,6 @@ body {
     width: 86%;
 }
 
-
 table{
     width: 100%;
 }
@@ -127,21 +126,45 @@ section{
 }
 
 #loja{
-    background-color: #D4D4D4;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    background: #D4D4D4;
+}
+
+#loja table tr td h1{
+    padding-left: 12%;
 }
 
 #loja table tr td p{
+    padding-right: 7%;
+    padding-left: 12%;
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    text-align: left;
-}
-
-#loja table tr td picture{
-    background-color: #8EB8DF;
+    text-align: justify;
 }
 
 #loja table tr td img{
+    width: 78%;
+    background-color: #8EB8DF;
+    border: 8px solid white;
+    object-fit: cover;
+    padding-top: 0%;
+    box-shadow: #26739952 25px 15px 24px 8px;
+}
+
+#loja a{
+    text-decoration: none;
+    color: black;
+}
+
+#loja img:hover{
     width: 80%;
+}
+
+#loja img:active{
+    box-shadow: none;
+    background-color: #5b79978e;
 }
