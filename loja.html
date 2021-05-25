@@ -17,16 +17,17 @@
     </a>
     <br>
     <h1>Sky Shop </h1>
-
+    <h2>Vitrine</h2>
     <div id="produtos">
-        <h2>Vitrine</h2>
+
 
 
     </div>
 
 
+
+    <h2>Carrinho</h2>
     <div id="carrinho">
-        <h2>Carrinho</h2>
 
 
     </div>
@@ -74,7 +75,17 @@
 
 
         atualizarcarrinho = () => {
-            console.log(items);
+            var containerCarrinho = document.getElementById('carrinho');
+            containerCarrinho.innerHTML = "";
+            items.map((val) => {
+                if (val.quantidade > 0)
+                    containerCarrinho.innerHTML += `
+                
+                <p>`+ val.nome + ` | quantidade: ` + val.quantidade + `</p>
+                <hr>
+                
+                `;
+            })
         }
 
         var links = document.getElementsByTagName('a');
