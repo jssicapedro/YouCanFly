@@ -1,15 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagamento</title>
+    <style>
+        table {
+            border: solid 1px;
+        }
+
+        table thead th {
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+
 </head>
+
 <body>
     <h1>Pagamento</h1>
     <table>
-        
+        <thead>
+            <tr>
+                <th>Informações pessoais</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" id="nome"></td>
+
+                <td width="20%"></td>
+
+                <td>Apelido:</td>
+                <td><input type="text" id="apelido"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="mail"></td>
+            </tr>
+            <tr>
+                <td>País:</td>
+                <td><input type="text" id="pais"></td>
+
+                <td width="20%"></td>
+
+                <td>Cidade:</td>
+                <td><input type="text" id="cidade"></td>
+
+                <td width="12%"></td>
+
+                <td>Código Postal:</td>
+                <td><input type="number" id="correio"></td>
+            </tr>
+        </tbody>
     </table>
+
+
+    <input type="button" onclick="funcao1()" value="Submeter" />
+
+    <script>
+        var sistema = 'Infelizmente o sistema falhou. ';
+        var tente = 'Tente novamente mais tarde';
+
+        function funcao1() {
+            window.alert(sistema + tente)
+        }
+    </script>
+
 </body>
+
 </html>
