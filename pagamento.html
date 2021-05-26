@@ -9,11 +9,33 @@
     <style>
         table {
             border: solid 1px;
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
         }
 
         table thead th {
             font-size: 20px;
             text-align: center;
+        }
+
+        .butão {
+            margin-top: 5%;
+            margin-left: 45%;
+        }
+
+        #notas {
+            height: 88px;
+            padding-right: 270%;
+        }
+
+        .coluna {
+            float: left;
+            width: 50%;
+        }
+
+        .coluna img {
+            width: 8%;
         }
     </style>
 
@@ -57,9 +79,51 @@
             </tr>
         </tbody>
     </table>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Informações de Pagamento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>NIB/CPF:</td>
+                <td><input type="text" id="nib"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="padding-bottom: 7%;">Notas do seu pedido<em>
+                        <stron>*</stron>
+                    </em>:</td>
+                <td><input type="text" id="notas"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href=""><input type="text" id="pais"></a></td>
+
+                <td width="20%"></td>
+
+                <td>Cidade:</td>
+                <td><input type="text" id="cidade"></td>
+
+                <td width="12%"></td>
+
+                <td>Código Postal:</td>
+                <td><input type="number" id="correio"></td>
+            </tr>
+        </tbody>
+    </table>
 
 
-    <input type="button" onclick="funcao1()" value="Submeter" />
+
+
+
+
+
+
+
+    <input class="butão" type="button" onclick="funcao1()" value="Submeter" />
 
     <script>
         var sistema = 'Infelizmente o sistema falhou. ';
