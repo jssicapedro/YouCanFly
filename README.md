@@ -28,13 +28,13 @@ This site aims to encourage all Portuguese and aviation lovers to give value to 
 In it, you will learn about the history of the 7 Portuguese airlines, as well as the fleet and destinations for which each one of them operates. Making the best of each one known and thus giving equal opportunities to companies smaller than TAP.
 
 On this site you will find:
-  ✈️ Hi Fly
-  ✈️ TAP
-  ✈️ White Airways
-  ✈️ Orbest, agora com o nome de Iberojet
-  ✈️ Sevenair Air Services
-  ✈️ Azores Airlines
-  ✈️ euroAtlantic Airways
+ - ✈️ Hi Fly
+ - ✈️ TAP
+ - ✈️ White Airways
+ - ✈️ Orbest, agora com o nome de Iberojet
+ - ✈️ Sevenair Air Services
+ - ✈️ Azores Airlines
+ - ✈️ euroAtlantic Airways
   
  Note:
   This site is not yet responsive.
