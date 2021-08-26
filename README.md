@@ -5,13 +5,13 @@ Este site tem como objetivo incentivar todos os portugueses e amantes da aviaç�
 Nele irá conhecer a história das 7 companhias aéreas portuguesas, bem como a frota e os destinos para o qual cada uma delas opera. Dando a conhecer o melhor de cada uma e, assim, dár oportunidades iguais ás companhias menores que a TAP.
 
 Neste site encontrará:
-  ✈️ Hi Fly
-  ✈️ TAP
-  ✈️ White Airways
-  ✈️ Orbest, agora com o nome de Iberojet
-  ✈️ Sevenair Air Services
-  ✈️ Azores Airlines
-  ✈️ euroAtlantic Airways
+ - ✈️ Hi Fly
+ - ✈️ TAP
+ - ✈️ White Airways
+ - ✈️ Orbest, agora com o nome de Iberojet
+ - ✈️ Sevenair Air Services
+ - ✈️ Azores Airlines
+ - ✈️ euroAtlantic Airways
 
 Deve ter em atenção: 
   Este site ainda não está respnsivo.
