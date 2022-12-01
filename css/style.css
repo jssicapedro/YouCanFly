@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 body {
-    padding-left: 7%;
-    padding-right: 7%;
+    width: 80vw;
+    margin: auto;
 }
 
 #inicio{
     position: absolute;
-    display: block;
     top: 3px;
-    width: 86%;
+    height: 30vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 table{
@@ -23,20 +26,19 @@ table{
 
 h1 {
     font-family: 'Bree Serif', serif;
-    font-size: 2.3em;
+    font-size: 2em;
+}
+
+#inicio .sobre_img img{
+    width: 10vw;
 }
 
 #inicio p{
     font-family: montserrat, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
-}
-        
-#inicio table tr td img{
-    margin-left: 63%;
-    margin-top: 5%;
 }
 
 li{
@@ -54,10 +56,11 @@ li{
 }
 
 #imageminicial{
-    width: 85%;
+    width: 75%;
     position: absolute;
     top: 34.6%;
-    left: 100px;
+    left: 12%;
+    align-items: center;
 }
 
 #rectangleblue{
@@ -70,13 +73,22 @@ li{
 }
 
 #ecradois{
-    padding-top: 30%;
+    margin: 45% 0 10% 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .imgcompanhias{
     margin-left: 38.3em;
     position: absolute;
     margin-top: -44px;  
+}
+
+.sobre_companhias{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 section{
